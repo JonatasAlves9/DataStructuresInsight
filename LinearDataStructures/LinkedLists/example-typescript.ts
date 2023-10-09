@@ -47,6 +47,20 @@ class LinkedList<T> {
         }
     }
 
+    search(value: T): T | undefined {
+        let current = this.head;
+
+        while (current !== null && current.value !== value) {
+            current = current.next
+        }
+
+        if (current !== null) {
+            return current.value
+        } else {
+            return undefined
+        }
+    }
+
     print(): void {
         let current = this.head;
         while (current !== null) {
@@ -65,3 +79,5 @@ list.print(); // Isso imprimirá: 1, 2, 3
 console.log('Teste de Delete: ')
 list.delete(2)
 list.print(); // Isso imprimirá: 1, 2, 3
+console.log('Teste do search: ')
+console.log(list.search(3))
