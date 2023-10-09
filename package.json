@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon --watch 'LinearDataStructures/**/*.ts' --exec 'ts-node' LinearDataStructures/Arrays/example-typescript.ts"
+    "start": "nodemon --watch 'LinearDataStructures/**/*.ts' --exec 'ts-node' LinearDataStructures/Arrays/example-typescript.ts",
+    "linkedList": "nodemon --watch 'LinearDataStructures/**/*.ts' --exec 'ts-node' LinearDataStructures/LinkedLists/example-typescript.ts"
   },
   "keywords": [],
   "author": "",
