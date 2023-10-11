@@ -7,8 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon --watch 'LinearDataStructures/**/*.ts' --exec 'ts-node' LinearDataStructures/Arrays/example-typescript.ts",
     "linkedList": "nodemon --watch 'LinearDataStructures/**/*.ts' --exec 'ts-node' LinearDataStructures/LinkedLists/example-typescript.ts",
-    "doubleLinkedList": "nodemon --watch 'LinearDataStructures/**/*.ts' --exec 'ts-node' LinearDataStructures/LinkedLists/example-double-point-typescript.ts"
-
+    "doubleLinkedList": "nodemon --watch 'LinearDataStructures/**/*.ts' --exec 'ts-node' LinearDataStructures/LinkedLists/example-double-point-typescript.ts",
+    "stack": "nodemon --watch 'LinearDataStructures/**/*.ts' --exec 'ts-node' LinearDataStructures/Stacks/example-typescript.ts"
   },
   "keywords": [],
   "author": "",
